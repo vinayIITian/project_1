@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+/* header ka navigation bar  */
+.navbar{
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:right;
+    list-style: none;
+    margin:13px 28px;
+}
+.navbar li a {
+    padding:9px 69px 7px 1px;
+    text-decoration: none;
+    color: rgb(5, 49, 172);
+    font-size:40px;
+}
+.navbar li a:hover{
+    color:red;
+}
+.navbar input{
+    border:2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width:130px;
+}
+
+/* name wala portion  */
+.namebox{
+    height:600px;
+    background-image:url('port.jpg');
+}
+#name{
+    font-weight: bold;
+    font-size:60px;
+    text-align: center;
+    color:rgb(255, 94, 0);
+    padding-top: 100px;
+}
+.tareef{
+    text-align: center;
+    padding: 40px 23px 0px 0px;
+    font-size: 23px;
+    color:yellow;
+}
+
+/* about me wala portion  */
+.box{
+    height:300px;
+    padding:60px 0px 0px 14px;
+}
+.aboutme{
+font-weight: bold;
+color:rgb(5, 49, 172);
+font-size: 30px;
+text-align: center;
+}
+.contain{
+    height:200px;
+    color:green;
+    width:35%;
+    margin-left: 470px;
+}
+.intro{
+    text-align: center;
+}
+
+
+/* my works ka css  */
+.con{
+    height:500px;
+}
+.work{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(8, 8, 184);
+}
+.ill{
+    text-align: center;
+    color:rgb(129, 129, 19);
+}
+img{
+    height:400px;
+}
+.first{
+    float:left;
+    width:500px;
+    padding-left:150px;
+}
+.second{
+    float:right;
+    padding-right:150px;
+    width:500px;
+}
